@@ -15,7 +15,7 @@ Genuinely, you can use this to create a relay server for your main VPN server. T
 You can simply use this script by running this on your relay server:
 
 ```plaintext
-sudo bash <(curl https://raw.githubusercontent.com/AliAlmasi/port-forward-tunnel/main/portforward.sh)
+sudo bash <(curl https://raw.githubusercontent.com/AliAlmasi/port-prerouting-tunnel/main/portforward.sh)
 ```
 
 After running this line, it will ask you for an IP address. Since you're making a relay server, then you should enter your main server's IP. After doing this, you can change your VPN configurations to use your relay server's IP as the destination.
