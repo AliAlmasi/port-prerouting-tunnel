@@ -2,11 +2,11 @@
 
 This script can be used for initializing the port prerouting tunnel.
 
-## What's port prerouting?
+## What's prerouting?
 
 prerouting is used for altering a packet as soon as it’s received.
 
-## What's this used for?
+## What's this used for exactly?
 
 Genuinely, you can use this to create a relay server for your main VPN server. This method can be used in countries like Iran, where domestic servers have fewer restrictions. Your VPN packets are sent to your relay (domestic) server, then it'll be sent (by using this script) to your main VPN server (in Germany for example).
 
