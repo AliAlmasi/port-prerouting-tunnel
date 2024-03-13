@@ -10,6 +10,8 @@ prerouting is used for altering a packet as soon as it’s received.
 
 Genuinely, you can use this to create a relay server for your main VPN server. This method can be used in countries like Iran, where domestic servers have fewer restrictions. Your VPN packets are sent to your relay (domestic) server, then it'll be sent (by using this script) to your main VPN server (in Germany for example).
 
+![How it works?](./how-it-works.png)
+
 ## How to use this?
 
 You can simply use this script by running this on your relay server:
